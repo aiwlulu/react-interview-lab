@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React Interview Lab 🧪
+
+This project is a self-practice and demo site based on the book:
+
+📘 **Reference Book**:  
+《React 求職特訓營：精選 30 道實戰決勝題 × 轉職 Q&A 無痛提升你的前端面試力》
+
+---
 
 ## Getting Started
 
