@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Home } from "lucide-react";
 
 export function Breadcrumb() {
   const pathname = usePathname();
@@ -13,8 +14,8 @@ export function Breadcrumb() {
     <nav className="text-sm text-muted-foreground mb-4">
       <ol className="flex items-center space-x-2">
         <li>
-          <Link href="/" className="hover:underline">
-            首頁
+          <Link href="/" className="hover:underline flex items-center">
+            <Home className="w-4 h-4" />
           </Link>
         </li>
         {segments.map((seg, index) => {
